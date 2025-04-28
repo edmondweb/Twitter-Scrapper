@@ -3,10 +3,12 @@ import pandas as pd
 import time
 
 # Twitter API credentials
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAPCS0wEAAAAAq4P%2FaJE5T0AZRXUyHbbncWAe52M%3DqeNoyUI5VhW7pp4BulNxeMnYYUvkBcDH56OgAU3SS14vzq4Eh4"
+BEARER_TOKEN = ("AAAAAAAAAAAAAAAAAAAAAPCS0wEAAAAAv1CY2FpiG3PHIST8ORrPXmIYChg%3DLzjSdoWat42CCHJQHmJ2oIV7VsfhxLHfEUmhv5ClJgO1bzgQoE")
+
 
 # Initialize Tweepy client
 client = tweepy.Client(bearer_token=BEARER_TOKEN, wait_on_rate_limit=True)
+
 
 # Your Twitter username (without @)
 username = "edmondweb_23"
